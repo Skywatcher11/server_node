@@ -1,0 +1,22 @@
+{
+  "name": "server_node",
+  "version": "0.0.1",
+  "description": "servidor em node js",
+  "main": "index.js",
+  "repository": "https://github.com/Skywatcher11/server_node",
+  "author": "Diony",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon --watch ./src/**/* ./src/server",
+    "start": "node ./src/server"
+   },
+  "dependencies": {
+    "Express": "^3.0.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  }
+}
